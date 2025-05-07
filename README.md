@@ -1,22 +1,10 @@
 # 🧠 Data Ingestion From Different Sources Showcase
 
-Welcome to my **Data Ingestion From Different Sources** portfolio project! As a career changer currently enrolled in a Data Analytics bootcamp, I'm gaining hands-on experience working with diverse data sources. This repository demonstrates how I connect to and extract data from various platforms and formats, which is a critical step in the data analysis pipeline.
+Welcome to my **Data Ingestion From Different Sources** portfolio project! As a career changer currently enrolled in a Data Analytics bootcamp, I'm gaining hands-on experience working with diverse data sources. This repository demonstrates how I connect to and extract data from Flat files, Relational databases, Web APIs and webpages, JSON files and Open datasets via Kaggle, which is a critical step in the data analysis pipeline.
 
 ---
 
-## 📌 Overview
-
-This project includes examples of loading data from:
-
-- ✅ Flat files (CSV, Excel)
-- ✅ Relational databases (SQL Server, MySQL)
-- ✅ Web APIs and webpages
-- ✅ JSON files
-- ✅ Open Datasets (via Kaggle)
-
----
-
-## 📂 File Structure
+## 📂 Files Used
 
 ```bash
 ├── dschools.csv                 # Sample CSV file
@@ -62,7 +50,7 @@ pip install pandas pyodbc mysql-connector-python sqlalchemy pymysql opendatasets
 Make sure your sample data files are in the same directory, then run:
 
 ```bash
-python data_ingestion_demo.py
+python data_ingestion.ipynb
 ```
 
 ---
